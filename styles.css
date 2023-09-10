@@ -1,0 +1,39 @@
+body {
+    color:#fff;
+    font-family: sans-serif;
+    background-color: #000000;
+    padding: 0 0 0 10px;
+    }
+
+ul {
+    padding-top: 5px;
+}
+
+li {
+    padding-top: 10px;
+}
+
+header {
+    color: #f1ffbe;
+    background-image: linear-gradient(to right,rgb(16, 149, 238),rgb(0, 0, 0) );
+    padding:1px 0 1px 20px ;
+}
+
+section {
+    padding: 1px 0 1px 20px;
+}
+
+footer {
+    padding: 1px 0 1px 20px;
+    position: absolute;
+    bottom: 10px;
+    color: rgba(255,255,255,0.4); 
+       
+}
+
+@media only screen and (max-width:800px){
+    body {font-size: 150%;}
+    footer {display: inline-block;
+            bottom: auto;}
+    
+}
